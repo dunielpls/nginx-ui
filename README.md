@@ -1,24 +1,24 @@
-# nginx ui    
+# Nginx UI    
 
 ![Docker Image CI](https://github.com/schenkd/nginx-ui/workflows/Docker%20Image%20CI/badge.svg)     
 
 ![Image of Nginx UI](https://i.ibb.co/XXcfsDp/Bildschirmfoto-2020-06-20-um-18-40-27.png)
 
-We use nginx in our company lab environment. It often happens that my
+We use Nginx in our company lab environment. It often happens that my
 colleagues have developed an application that is now deployed in our Stage
-or Prod environment. To make this application accessible nginx has to be
+or Prod environment. To make this application accessible Nginx has to be
 adapted. Most of the time my colleagues don't have the permission to access
 the server and change the configuration files and since I don't feel like
 doing this for everyone anymore I thought a UI could help us all. If you
 feel the same way I wish you a lot of fun with the application and I am
 looking forward to your feedback, change requests or even a star.
 
-## setup
+## Setup
 
 Containerization is now state of the art and therefore the application is
 delivered in a container.
 
-### docker
+### Docker
 
 Repository @ [DockerHub](https://hub.docker.com/r/schenkd/nginx-ui)
 
@@ -45,3 +45,9 @@ into the Nginx UI Main Config menu item.
 
 Adding a domain opens an exclusive editing window for the configuration
 file. This can be applied, deleted and enabled/disabled.
+
+### Daniel TODO (temporary):
+- [ ] More detailed view of vhosts?
+- [ ] Configuration testing.
+- [ ] Restarting and reloading Nginx from the UI.
+- [ ] Perhaps the ability to find log file paths from the config and have a webUI pager for them?
